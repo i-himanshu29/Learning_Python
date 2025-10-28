@@ -148,3 +148,22 @@ print("Length of the string:", len(greeting))
  
 # Indexing: Accessing individual characters in a string using their index.
 # Slicing: Extracting a substring from a string using slicing notation.
+
+# Conditional Statements in Python.................
+# Conditional statements are used to perform different actions based on different conditions.
+# if statement: Executes a block of code if a specified condition is true.
+# if-else statement: Executes one block of code if a condition is true and another block if it is false.
+# elif statement: Checks multiple conditions and executes the corresponding block of code for the first true condition.
+# Example:
+'''
+num = 10
+if num > 0:
+    print("Positive number")
+elif num == 0:
+    print("Zero")
+else:
+    print("Negative number")
+'''
+
+# Note: In Python, indentation is crucial for defining the scope of conditional statements.
+# Make sure to use consistent indentation (usually 4 spaces) for blocks of code within conditional statements.
