@@ -247,3 +247,73 @@ print("Subset of numbers:", subset)
 # count(): Returns the number of occurrences of a specified element in the tuple.
 # index(): Returns the index of the first occurrence of a specified element in the tuple.
 
+
+
+
+# Dictionaries in Python.................
+# It is used to store data values in key:value pairs.
+# A dictionary is an unordered collection of key-value pairs.
+# Dictionaries are mutable, meaning their elements can be changed after creation.
+#  Don't allows duplicate keys
+# Example:
+'''
+person = {"name": "Himanshu", "age": 23, "city": "New York"}
+print(person)
+print("Name:", person["name"])
+print("Length of the dictionary:", len(person))
+'''
+
+# Nested Dictionary in Python.................
+# A nested dictionary is a dictionary that contains another dictionary as a value for one of its keys.
+# Example:
+'''
+student = {
+    "name": "Alice",
+    "age": 22,
+    "courses": {
+        "Math": 95,
+        "Science": 88,
+        "English": 92
+    }
+}
+
+print(student)
+print("Courses:", student["courses"])
+print("Math score:", student["courses"]["Math"])
+'''
+
+# Dictionary Methods in Python.................
+# keys(): Returns a view object containing the keys of the dictionary.
+# values(): Returns a view object containing the values of the dictionary.
+# items(): Returns a view object containing the key-value pairs of the dictionary as tuples.
+# get(): Returns the value for a specified key, or a default value if the key is not found.
+# pop(): Removes and returns the value for a specified key.
+# update(): Updates the dictionary with key-value pairs from another dictionary or iterable.
+
+
+# Sets in Python.................
+# A set is an unordered collection of unique items.
+# Sets are mutable, meaning their elements can be changed after creation.
+# set can store multiple data types i.e int, float, string , boolean ,tuple etc.
+# set can't store mutable data types like list, dictionary , set etc.
+
+# set -> mutable
+# set ke elements -> immutable hote hai
+
+# Example:
+'''
+fruits = {"apple", "banana", "cherry"}
+print(fruits)
+print("Length of the set:", len(fruits))
+'''
+
+# Methods in Set.................
+# add(): Adds an element to the set.
+# remove(): Removes a specified element from the set. Raises an error if the element is not found.
+# discard(): Removes a specified element from the set. Does not raise an error if the element is not found.
+# pop(): Removes and returns an arbitrary element from the set.
+# union(): Returns a new set that is the union of two sets.
+# intersection(): Returns a new set that is the intersection of two sets.
+# difference(): Returns a new set that is the difference of two sets.
+# symmetric_difference(): Returns a new set that is the symmetric difference of two sets.
+# clear(): Removes all elements from the set.
