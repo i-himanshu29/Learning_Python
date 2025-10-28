@@ -133,6 +133,7 @@ print("I am", age, "years old.")
 
 # String in Python.................
 # A string is a sequence of characters enclosed in single quotes (' ') or double quotes (" ").
+# strings are immutable i.e we cannot change the value of string after creation.
 # Example:
 '''
 greeting = "Hello, World!"
@@ -167,3 +168,82 @@ else:
 
 # Note: In Python, indentation is crucial for defining the scope of conditional statements.
 # Make sure to use consistent indentation (usually 4 spaces) for blocks of code within conditional statements.
+
+
+# Lists in Python.................
+# A list is an ordered collection of items that can be of different data types.
+# Lists are mutable, meaning their elements can be changed after creation.
+
+# strings are immutable i.e we cannot change the value of string after creation.
+
+# lists allows assignment i.e we can change the value stored in list.
+
+# Example:
+'''
+fruits = ["apple", "banana", "cherry"]
+print(fruits)
+print("First fruit:", fruits[0])
+print("Length of the list:", len(fruits))
+'''
+
+# lists slicing in Python.................
+# Slicing allows you to extract a portion of a list by specifying a start and end index.
+# Example:
+'''
+numbers = [10, 20, 30, 40, 50, 60]
+subset = numbers[1:4]  # Extracts elements from index 1 to 3
+print("Subset of numbers:", subset)
+'''
+
+# Lists Methods in Python.................
+# append(): Adds an element to the end of the list.
+# remove(): Removes the first occurrence of a specified element from the list.
+# pop(): Removes and returns the element at a specified index (default is the last element).
+# insert(): Inserts an element at a specified index.
+# sort(): Sorts the elements of the list in ascending order.
+# reverse(): Reverses the order of elements in the list.
+# Example:
+'''
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")
+print("Updated fruits list:", fruits)
+fruits.remove("banana")
+print("After removing banana:", fruits)
+popped_fruit = fruits.pop()
+print("Popped fruit:", popped_fruit)
+print("Fruits list after pop:", fruits)
+fruits.insert(1, "kiwi")
+print("After inserting kiwi:", fruits)
+fruits.sort()
+print("Sorted fruits list:", fruits)
+fruits.reverse()
+print("Reversed fruits list:", fruits)
+'''
+
+
+# Tuples in Python.................
+# A tuple is an ordered collection of items that can be of different data types.
+# Tuples are immutable, meaning their elements cannot be changed after creation.
+# Example:
+'''
+coordinates = (10, 20)
+print(coordinates)
+print("First coordinate:", coordinates[0])
+print("Length of the tuple:", len(coordinates))
+'''
+
+
+# Tuple Slicing in Python.................
+# Slicing allows you to extract a portion of a tuple by specifying a start and end index.
+# Example:
+'''
+numbers = (10, 20, 30, 40, 50, 60)
+subset = numbers[2:5]  # Extracts elements from index 2 to 4
+print("Subset of numbers:", subset)
+'''
+
+
+# Tuple Methods in Python.................
+# count(): Returns the number of occurrences of a specified element in the tuple.
+# index(): Returns the index of the first occurrence of a specified element in the tuple.
+
