@@ -117,7 +117,8 @@ print("Data type of result:", type(result))
 # Input in Python.................
 # input() function is used to take input from the user.
 # Example:
-'''name = input("Enter your name: ")
+'''
+name = input("Enter your name: ")
 print("Hello, " + name + "!") 
 '''
 
@@ -125,6 +126,25 @@ print("Hello, " + name + "!")
 # Output in Python.................
 # print() function is used to display output to the user.
 # Example:
-'''age = 23
+'''
+age = 23
 print("I am", age, "years old.") 
 '''
+
+# String in Python.................
+# A string is a sequence of characters enclosed in single quotes (' ') or double quotes (" ").
+# Example:
+'''
+greeting = "Hello, World!"
+print(greeting)
+print("Length of the string:", len(greeting)) 
+'''
+
+# String Methods in Python.................
+# Concatenation: Joining two or more strings using the + operator.
+# Length: Using len() function to get the length of a string.
+# Uppercase: Using upper() method to convert a string to uppercase.
+# Lowercase: Using lower() method to convert a string to lowercase.
+ 
+# Indexing: Accessing individual characters in a string using their index.
+# Slicing: Extracting a substring from a string using slicing notation.
