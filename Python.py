@@ -317,3 +317,25 @@ print("Length of the set:", len(fruits))
 # difference(): Returns a new set that is the difference of two sets.
 # symmetric_difference(): Returns a new set that is the symmetric difference of two sets.
 # clear(): Removes all elements from the set.
+
+
+# Loops in Python.................
+# Loops are used to execute a block of code repeatedly until a certain condition is met.
+# Types of loops in Python:
+# for loop: Used to iterate over a sequence (like a list, tuple, or string) or other iterable objects.
+# while loop: Repeats a block of code as long as a specified condition is true.
+
+# Break and Continue Statements in Loops.................
+# break statement: Used to exit the loop prematurely when a certain condition is met.
+# continue statement: Skips the current iteration of the loop and moves to the next iteration.
+
+
+# Range Function in Python.................
+# Range fn : The range() function is used to generate a sequence of numbers. It is commonly used in for loops to iterate over a specific range of values. The range() function can take one, two, or three arguments:
+# 1. range(stop): Generates numbers from 0 to stop-1.
+# 2. range(start, stop): Generates numbers from start to stop-1.
+# 3. range(start, stop, step): Generates numbers from start to stop-1, incrementing by step.
+
+# Pass Statement in Python.................
+# The pass statement is a null operation; it does nothing when executed.
+# It is used as a placeholder in situations where a statement is syntactically required but no action is needed.
