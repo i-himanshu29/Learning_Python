@@ -366,3 +366,15 @@ print("Length of the set:", len(fruits))
 # Reading from a File: Various methods like read(), readline(), and readlines() are used to read data from a file.
 # Writing to a File: Methods like write() and writelines() are used to write data to a file.
 # Closing a File: The close() method is used to close a file after operations are completed to free up system resources.
+
+
+# OOP Concepts in Python.................
+# Object-Oriented Programming (OOP) is a programming paradigm that uses objects and classes to structure code.
+# Key OOP Concepts:
+# Class: A blueprint for creating objects that defines attributes and methods.
+# Object: An instance of a class that contains data and behavior.
+# Inheritance: A mechanism where a new class (child) inherits attributes and methods from an existing class (parent).
+# Encapsulation: The bundling of data and methods within a class, restricting access to some components.
+# Polymorphism: The ability to use a single interface to represent different underlying data types.
+# Polymorphism types: Compile-time polymorphism (method overloading) and Run-time polymorphism (method overriding).
+# Abstraction: The concept of hiding complex implementation details and showing only the essential features of an object.
