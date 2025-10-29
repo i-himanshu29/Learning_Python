@@ -358,3 +358,11 @@ print("Length of the set:", len(fruits))
 # Recursion is a programming technique where a function calls itself to solve a smaller instance of the same problem.
 # Base Case: A condition that stops the recursion to prevent infinite loops.
 # Recursive Case: The part of the function where it calls itself with modified arguments.
+
+
+# File Input/Output in Python.................
+# File handling is used to read from and write to files.
+# Opening a File: The open() function is used to open a file in a specified mode (read, write, append, etc.).
+# Reading from a File: Various methods like read(), readline(), and readlines() are used to read data from a file.
+# Writing to a File: Methods like write() and writelines() are used to write data to a file.
+# Closing a File: The close() method is used to close a file after operations are completed to free up system resources.
