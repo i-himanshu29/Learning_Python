@@ -339,3 +339,22 @@ print("Length of the set:", len(fruits))
 # Pass Statement in Python.................
 # The pass statement is a null operation; it does nothing when executed.
 # It is used as a placeholder in situations where a statement is syntactically required but no action is needed.
+
+
+# Functions in Python.................
+# A function is a block of reusable code that performs a specific task.
+# Functions help in breaking down a program into smaller, manageable parts.
+# Defining a Function: Functions are defined using the def keyword followed by the function name and parentheses ().
+# Calling a Function: A function is called by using its name followed by parentheses ().
+# Parameters and Arguments: Functions can take parameters (inputs) that are passed as arguments when calling the function.
+# Return Statement: Functions can return a value using the return statement.
+
+# Built-in Functions in Python.................
+# Python provides several built-in functions that can be used without importing any additional modules.
+# Examples of built-in functions: print(), len(), type(), int(), float(), str(), input(), range(), sum(), max(), min(), sorted(), etc.
+
+
+# Recursion in Python.................
+# Recursion is a programming technique where a function calls itself to solve a smaller instance of the same problem.
+# Base Case: A condition that stops the recursion to prevent infinite loops.
+# Recursive Case: The part of the function where it calls itself with modified arguments.
